@@ -1,0 +1,51 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 900px) {
+  .about-p-mainDiv {
+    width: 80% !important;
+  }
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 768px) {
+  .start-word-h1-about {
+    font-size: 2rem !important;
+  }
+  .start-word-div-about::before {
+    left: 20%;
+    top: 47%;
+  }
+  .start-word-div-about::after {
+    right: 20%;
+    top: 47%;
+  }
+  .about-p-mainDiv {
+    width: 80% !important;
+    flex-direction: column !important;
+  }
+  .about-p-mainDiv div {
+    margin: auto !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 570px) {
+  .start-word-div-about::before {
+    left: 20%;
+    top: 47%;
+  }
+  .start-word-div-about::after {
+    right: 20%;
+    top: 47%;
+  }
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 390px) {
+  .about-p-mainDiv {
+    width: 100% !important;
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .p-div-1 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}

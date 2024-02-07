@@ -1,0 +1,33 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 768px) {
+  .start-word-h1 {
+    font-size: 2rem !important;
+  }
+  .start-word-div::before {
+    left: 20%;
+    top: 47%;
+  }
+  .start-word-div::after {
+    right: 20%;
+    top: 47%;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 570px) {
+  .navbar {
+    padding-inline: 10px !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 390px) {
+  .navbar-brand {
+    font-size: 1rem !important;
+    margin: auto !important;
+  }
+  .navbar-toggler {
+    font-size: 1rem !important;
+    margin: auto;
+  }
+}

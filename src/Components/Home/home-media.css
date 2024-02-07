@@ -1,0 +1,35 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 768px) {
+  .start-word-h1 {
+    font-size: 2rem !important;
+  }
+  .start-word-div::before {
+    left: 20%;
+    top: 47%;
+  }
+  .start-word-div::after {
+    right: 20%;
+    top: 47%;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 570px) {
+  .start-word-h1 {
+    font-size: 1.5rem !important;
+  }
+  .start-word-div::before {
+    left: 20%;
+    top: 47%;
+  }
+  .start-word-div::after {
+    right: 20%;
+    top: 47%;
+  }
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 390px) {
+  .start-word-h1 {
+    font-size: 0.5rem !important;
+  }
+}
